@@ -1,0 +1,20 @@
+.sidebar-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar-heading img {
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+}
+.img-rounded {
+    border-radius: 20%;
+}
+.sidebar-heading h2 {
+    font-size: 30px;
+    margin-top: 10px;    
+}

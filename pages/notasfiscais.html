@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Notas Fiscais</title>
+
+  <!-- Fontaweasome -->
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebar.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading sidebar-title">
+        <img src="../imagens/logo-vesentini.png" alt="logo">
+        <h2>Instaltec</h2>        
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="../dashboard.html" class="list-group-item list-group-item-action bg-light">Home</a>
+        <a href="notasfiscais.html" class="list-group-item list-group-item-action bg-light">Notas Fiscais</a>
+        <a href="conversor.html" class="list-group-item list-group-item-action bg-light">Conversor</a>
+        <a href="arquivos.html" class="list-group-item list-group-item-action bg-light">Arquivos</a>
+        <a href="suporte.html" class="list-group-item list-group-item-action bg-light">Suporte</a>
+        <a href="relatorio.html" class="list-group-item list-group-item-action bg-light">Relatório</a>
+        <a href="usuarios.html" class="list-group-item list-group-item-action bg-light">Gerenciar Usuários</a>
+        <a href="pesquisa.html" class="list-group-item list-group-item-action bg-light">Pesquisa Avançada</a>
+        <a href="downloads.html" class="list-group-item list-group-item-action bg-light">Downloads</a>
+        <a href="" class="list-group-item list-group-item-action bg-light"></a>
+      </div>
+      <div class="relatorio my-4 p-3">
+        <p>Relatório de Download</p>
+        <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected> Selecione o mês </option>
+              <option value="1">Janeiro</option>
+              <option value="2">Fevereiro</option>
+              <option value="3">Março</option>
+              <option value="4">Abril</option>
+              <option value="5">Maio</option>
+              <option value="6">Junho</option>
+              <option value="7">Julho</option>
+              <option value="8">Agosto</option>
+              <option value="9">Setembro</option>
+              <option value="10">Outubro</option>
+              <option value="11">Novembro</option>
+              <option value="12">Dezembro</option>
+            </select>
+            <div class="input-group-prepend">
+                <button class="btn btn-primary" id="inputGroup-sizing-sm">Ok</button>
+            </div>
+          </div>
+    </div>
+    </div>
+    
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div>
+          <label id="menu-toggle"><i class="fas fa-arrows-alt-h mr-3"></i></label>
+          <a href="../dashboard.html"><i class="fab fa-accusoft"></i> Home</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="../imagens/logo-vesentini.png" alt="mdo" width="25" height="25" class="rounded-circle">
+                 Nome do Usuário
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Gerenciador de Contas</a>
+                <hr class="dropdown-divider">
+                <a class="dropdown-item" href="#">Perfil</a>
+                <a class="dropdown-item" href="#">Alterar Cadastro</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="main-content">
+          <div class="card w-900 shadow my-4">
+              <div class="card-body mx-4">
+                  <img class="mb-2" src="../imagens/logo-vesentini.png" width="60" height="60" alt="logo instaltec">
+                  <h5 class="card-title">Bem vindo a Instaltec!</h5>
+                  <p class="card-text my-3">Instaltec é um sistema de
+                      gestão de notas fiscais que vai tornar a rotina
+                      de contabilidade da sua empresa mais prática e
+                      funcional.</p>
+              </div>                        
+          </div>
+          
+              <div class="card w-900 shadow my-4">
+                
+                <div class="card-body mx-4">
+                  <h2>Notas fiscais</h2>
+                  <div class="row mx-4 mt-5">
+                    <div class="col-md-4 row" >
+                      <i class="far fa-file-code mr-2" style="font-size: 40px; color: rgb(91, 91, 241);" ></i> <h3>NF-e</h3>
+                    </div>
+                    <div class="col-md-4 row">
+                      <i class="far fa-file-code mr-2" style="font-size: 40px; color: rgb(236, 92, 73);"></i> <h3>CT-e</h3>
+                    </div>
+                    <div class="col-md-4 row">
+                      <i class="far fa-file-code mr-2" style="font-size: 40px; color: rgb(238, 214, 78);"></i> <h3>NFS-e</h3>
+                    </div>
+                  </div>
+                  <div class="row mx-4 mt-5 mb-5" style="font-size: 25px;">
+                    <div class="col-md-4 row">
+                      <i class="far fa-file-code mr-2" style="font-size: 40px; color: rgb(65, 150, 150);"></i> <h3>NFC-e</h3>
+                    </div>
+                    <div class="col-md-4 row">
+                      <i class="far fa-file-code mr-2" style="font-size: 40px; color: rgb(113, 150, 185);"></i> <h3>CF-e</h3>
+                    </div>
+                  </div>
+                  
+                  </div>
+                </div>                        
+            </div>                        
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
